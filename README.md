@@ -178,7 +178,7 @@
 1.  string <span class="apidocSignatureSpan">firebase.User.prototype.</span>providerId
 
 #### [module firebase.User.ud](#apidoc.module.firebase.User.ud)
-1.  boolean <span class="apidocSignatureSpan">firebase.User.ud.</span>closure_listenable_67397
+1.  boolean <span class="apidocSignatureSpan">firebase.User.ud.</span>closure_listenable_158650
 1.  [function <span class="apidocSignatureSpan">firebase.User.ud.</span>Sc (a, b, c, d)](#apidoc.element.firebase.User.ud.Sc)
 1.  [function <span class="apidocSignatureSpan">firebase.User.ud.</span>addEventListener (a, b, c, d)](#apidoc.element.firebase.User.ud.addEventListener)
 1.  [function <span class="apidocSignatureSpan">firebase.User.ud.</span>constructor ()](#apidoc.element.firebase.User.ud.constructor)
