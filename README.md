@@ -184,7 +184,7 @@
 1.  string <span class="apidocSignatureSpan">firebase.User.prototype.</span>providerId
 
 #### [module firebase.User.qd](#apidoc.module.firebase.User.qd)
-1.  boolean <span class="apidocSignatureSpan">firebase.User.qd.</span>closure_listenable_993688
+1.  boolean <span class="apidocSignatureSpan">firebase.User.qd.</span>closure_listenable_596057
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>Pc (a, b, c, d)](#apidoc.element.firebase.User.qd.Pc)
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>Za ()](#apidoc.element.firebase.User.qd.Za)
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>addEventListener (a, b, c, d)](#apidoc.element.firebase.User.qd.addEventListener)
