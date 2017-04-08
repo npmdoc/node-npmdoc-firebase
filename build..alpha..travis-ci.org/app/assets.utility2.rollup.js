@@ -9934,7 +9934,7 @@ the greatest app in the world!\n\
 # live demo\n\
 - [https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/app/index.html](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/app/index.html)\n\
 \n\
-[![github.com test-server](https://kaizhu256.github.io/node-jslint-lite/build/screenCapture.deployGithub.browser._2Fnode-jslint-lite_2Fbuild_2Fapp_2Findex.html.png)](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/app/index.html)\n\
+[![github.com test-server](https://kaizhu256.github.io/node-jslint-lite/build/screenCapture.deployGithub.browser.%252Fnode-jslint-lite%252Fbuild%252Fapp%252Findex.html.png)](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/app/index.html)\n\
 \n\
 \n\
 \n\
@@ -9942,7 +9942,7 @@ the greatest app in the world!\n\
 #### apidoc\n\
 - [https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/apidoc.html](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/apidoc.html)\n\
 \n\
-[![apidoc](https://kaizhu256.github.io/node-jslint-lite/build/screenCapture.buildApidoc.browser._2Fhome_2Ftravis_2Fbuild_2Fkaizhu256_2Fnode-jslint-lite_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/apidoc.html)\n\
+[![apidoc](https://kaizhu256.github.io/node-jslint-lite/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fkaizhu256%252Fnode-jslint-lite%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://kaizhu256.github.io/node-jslint-lite/build..beta..travis-ci.org/apidoc.html)\n\
 \n\
 #### todo\n\
 - none\n\
@@ -11474,9 +11474,7 @@ local.assetsDict['/favicon.ico'] = '';
                         fileCoverage: local.env.npm_config_dir_tmp +
                             '/coverage.' + options.testName + '.json',
                         fileScreenCapture: (local.env.npm_config_dir_build +
-                            '/screenCapture.' + options.testName + '.png')
-                            .replace((/%/g), '_')
-                            .replace((/_2F\.png$/), '.png'),
+                            '/screenCapture.' + options.testName + '.png'),
                         fileTestReport: local.env.npm_config_dir_tmp +
                             '/test-report.' + options.testName + '.json',
                         modeBrowserTest: 'test',
@@ -12062,7 +12060,7 @@ header: '\
 [![NPM](https://nodei.co/npm/{{env.npm_package_name}}.png?downloads=true)](https://www.npmjs.com/package/{{env.npm_package_name}}) \
 \n\
 \n\
-[![apidoc](https://npmdoc.github.io/node-npmdoc-{{env.npm_package_name}}/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-{{env.npm_package_name}}_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-{{env.npm_package_name}}/build/apidoc.html) \
+[![apidoc](https://npmdoc.github.io/node-npmdoc-{{env.npm_package_name}}/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-{{env.npm_package_name}}%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-{{env.npm_package_name}}/build/apidoc.html) \
 \n\
 \n\
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-{{env.npm_package_name}}/build/screenCapture.npmPackageListing.svg) \
@@ -14397,8 +14395,8 @@ instruction\n\
                 options.githubRepo.join('/')
             );
             template = template.replace(
-                (/kaizhu256_2Fnode-jslint-lite/g),
-                options.githubRepo.join('_2F')
+                (/kaizhu256%252Fnode-jslint-lite/g),
+                options.githubRepo.join('%252F')
             );
             template = template.replace(
                 (/node-jslint-lite/g),
