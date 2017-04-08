@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/firebase.png?downloads=true)](https://www.npmjs.com/package/firebase)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-firebase/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-firebase_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-firebase/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-firebase/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-firebase%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-firebase/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-firebase/build/screenCapture.npmPackageListing.svg)
 
@@ -184,7 +184,7 @@
 1.  string <span class="apidocSignatureSpan">firebase.User.prototype.</span>providerId
 
 #### [module firebase.User.qd](#apidoc.module.firebase.User.qd)
-1.  boolean <span class="apidocSignatureSpan">firebase.User.qd.</span>closure_listenable_596057
+1.  boolean <span class="apidocSignatureSpan">firebase.User.qd.</span>closure_listenable_159868
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>Pc (a, b, c, d)](#apidoc.element.firebase.User.qd.Pc)
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>Za ()](#apidoc.element.firebase.User.qd.Za)
 1.  [function <span class="apidocSignatureSpan">firebase.User.qd.</span>addEventListener (a, b, c, d)](#apidoc.element.firebase.User.qd.addEventListener)
